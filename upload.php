@@ -7,7 +7,7 @@ $statusMsg = '';
 global $db;
 
 // File upload path
-$targetDir = "/var/www/html/file/upload/";
+$targetDir = "/var/www/html/fileUpload/upload/";
 $fileName = basename($_FILES["file"]["name"]);
 $targetFilePath = $targetDir . $fileName;
 $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
